@@ -1,0 +1,24 @@
+<p-card class="border-round-md" [ngStyle]="{'width': width+'px', 'height': height+'px'}">
+    <ng-template pTemplate="header">
+        <div class="flex justify-content-center h-10rem">
+            <img alt="Card" src="{{image}}" class="image-contain" />
+        </div>
+    </ng-template>
+
+    <ng-template pTemplate="content">
+        <div class="h-4rem">
+            <div class="app-card-title">{{title}}</div>        
+            <div class="app-card-category">{{category}}</div>
+        </div>
+        <div class="h-8rem">
+            <app-card-description description="{{description}}" title="{{title}}" />
+        </div>
+    </ng-template>
+
+    <ng-template pTemplate="footer">
+        <div class="flex justify-content-end">
+            <button pButton pRipple label="Comprar" class="p-button-success"></button>
+        </div>
+    </ng-template>
+
+</p-card>

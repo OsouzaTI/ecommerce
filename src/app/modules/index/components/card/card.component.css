@@ -1,0 +1,10 @@
+.image-contain {
+    object-fit: contain;
+}
+
+.app-card-title {
+    height: 2rem;
+    font-weight: bold;
+}
+
+/* .app-card-category {} */
