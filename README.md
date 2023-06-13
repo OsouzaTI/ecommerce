@@ -1,5 +1,5 @@
 # Projeto ...
-![Arqui](assets\arquitetura-aplicacao.drawio.png "arquitetura do projeto")
+![Arqui](/assets/arquitetura-aplicacao.drawio.png "arquitetura do projeto")
 
 ## Sobre a arquitetura
 
